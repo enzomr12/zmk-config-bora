@@ -13,7 +13,7 @@
                                &kp KP_N7      &kp KP_N8      &kp KP_N9
                 &kp KP_DOT     &kp KP_0       &none          &kp KP_ENTER
                                &kp TAB        &kp ESC        &none
-                &kp RESET      &none          &mo 1
+                &kp RESET      &none          &none
             >;
         };
 
