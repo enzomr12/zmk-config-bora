@@ -11,9 +11,9 @@
                 &kp KP_N1      &kp KP_N2      &kp KP_N3      &kp KP_PLUS
                 &kp KP_N4      &kp KP_N5      &kp KP_N6      &kp KP_MINUS
                                &kp KP_N7      &kp KP_N8      &kp KP_N9
-                &kp KP_DOT     &kp KP_0       &T          &kp KP_ENTER
-                               &kp TAB        &kp ESC        &T
-                &kp RESET      &T          &T
+                &kp KP_DOT     &kp KP_0       &trans         &kp KP_ENTER
+                               &kp TAB        &kp ESC        &trans
+                &kp RESET      &trans         &trans
             >;
         };
     };
