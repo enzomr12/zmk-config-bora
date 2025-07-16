@@ -10,6 +10,7 @@
         compatible = "zmk,kscan-gpio-matrix";
         label = "numpad_kscan";
         diode-direction = "col2row";
+        debounce = <20>;
 
         row-gpios = <&gpio0 9  GPIO_ACTIVE_LOW>,
                     <&gpio0 10 GPIO_ACTIVE_LOW>,
