@@ -16,16 +16,5 @@
                 &none   &none    &none
             >;
         };
-
-        bt_layer {
-            bindings = <
-                &none   &none   &none   &none
-                &none   &none   &none   &none
-                        &none   &none   &none
-                &none   &none   &none   &none
-                        &none   &none   &none
-                &none   &none   &none
-            >;
-        };
     };
 };
