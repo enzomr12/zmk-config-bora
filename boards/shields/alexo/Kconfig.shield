@@ -1,0 +1,2 @@
+config SHIELD_ALEXO
+  def_bool $(shields_list_contains, alexo)

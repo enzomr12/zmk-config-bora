@@ -1,0 +1,6 @@
+if SHIELD_ALEXO
+
+config ZMK_KEYBOARD_NAME
+    default "alexo"
+    
+endif
