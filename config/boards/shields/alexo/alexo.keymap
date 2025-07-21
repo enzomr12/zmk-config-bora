@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <  
-                &mo 1       &KP LC(X)     &KP LC(C)      &kp LC(V)
+                &mo 1       &kp LC(X)     &kp LC(C)      &kp LC(V)
                 &kp BSPC    &kp SLASH     &kp ASTRK      &kp MINUS
                 &kp N7      &kp N8        &kp N9     
                 &kp N4      &kp N5        &kp N6         &kp PLUS
@@ -19,12 +19,12 @@
 
         bt_layer {
             bindings = <
-                &trans      &bt BT_SEL 0  &bt BT_SEL 1    &bootloader
+                &trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2
                 &trans      &trans        &trans          &trans
                 &trans      &trans        &trans         
                 &trans      &trans        &trans          &trans
                 &trans      &trans        &trans        
-                            &trans        &trans          &trans
+                            &trans        &trans          &bootloader
             >;
         };
     };
