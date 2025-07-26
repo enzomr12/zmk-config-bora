@@ -19,12 +19,12 @@
         
         short_layer {
             bindings = <
-                &studio_unlock   &trans   &trans   &trans
-                &mo 2            &trans   &trans   &trans
-                &kp F13          &kp F16  &kp F19   
-                &kp F14          &kp F17  &kp F20  &kp F22
-                &kp F15          &kp F18  &kp F21   
-                                 &kp F24  &trans   &kp F23                
+                &trans   &studio_unlock   &trans   &trans
+                &mo 2    &trans           &trans   &trans
+                &kp F13  &kp F16          &kp F19   
+                &kp F14  &kp F17          &kp F20  &kp F22
+                &kp F15  &kp F18          &kp F21   
+                         &kp F24          &trans   &kp F23                
             >;        
         };
 
