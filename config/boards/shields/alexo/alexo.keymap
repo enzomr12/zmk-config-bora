@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <  
-                &tog 1      &kp LC(X)   &kp LC(C)   &kp LC(V)
+                &tog 1      &kp SLCK    &kp LC(C)   &kp LC(V)
                 &kp BSPC    &kp SLASH   &kp ASTRK   &kp MINUS
                 &kp KP_N7   &kp KP_N8   &kp KP_N9   
                 &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp PLUS
@@ -21,9 +21,9 @@
             bindings = <
                 &trans   &trans   &trans   &trans
                 &mo 2    &trans   &trans   &trans
-                &kp F13  &kp 16   &kp F19   
-                &kp F14  &kp 17   &kp F20  &kp F22
-                &kp F15  &kp 18   &kp F21   
+                &kp F13  &kp F16  &kp F19   
+                &kp F14  &kp F17  &kp F20  &kp F22
+                &kp F15  &kp F18  &kp F21   
                          &kp F24  &trans   &kp F23                
             >;
         };
