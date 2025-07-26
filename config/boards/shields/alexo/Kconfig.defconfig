@@ -2,5 +2,9 @@ if SHIELD_ALEXO
 
 config ZMK_KEYBOARD_NAME
     default "alexo"
-    
+
+config ZMK_STUDIO
+    bool "Enable ZMK Studio"
+    default y
+
 endif
