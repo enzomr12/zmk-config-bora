@@ -8,8 +8,8 @@
 
         default_layer {
             bindings = <  
-                &tog 1      &kp KP_NUM  &kp C(C)    &kp C(S(V))
-                &kp BSPC    &kp SLASH   &kp ASTRK   &kp MINUS
+                &tog 1      &kp KP_NUM  &kp LC(C)   &kp LC(LS(V))
+                &kp BSPC    &kp RA(Q)   &kp ASTRK   &kp MINUS
                 &kp KP_N7   &kp KP_N8   &kp KP_N9   
                 &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp PLUS
                 &kp KP_N1   &kp KP_N2   &kp KP_N3   
