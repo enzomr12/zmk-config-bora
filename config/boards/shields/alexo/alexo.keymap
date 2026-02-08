@@ -19,7 +19,7 @@
         
         short_layer {
             bindings = <
-                &trans   &trans    &kp C_AL_CALCULATOR   &kp K_CALCULATOR
+                &trans   &trans    &kp C_AL_CALCULATOR   &trans
                 &mo 2    &trans    &trans                &trans
                 &kp F13  &kp F16   &kp F19   
                 &kp F14  &kp F17   &kp F20               &kp F22
